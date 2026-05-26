@@ -1,0 +1,81 @@
+/* Display — frames product, does not dominate */
+.text-display-xl {
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 8vw, 6.5rem);
+  font-weight: 600;
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: rgba(244, 244, 245, 0.92);
+}
+
+@media (max-width: 767px) {
+  .text-display-xl {
+    font-size: clamp(2rem, 12vw, 3rem);
+    line-height: 0.96;
+  }
+}
+
+.text-display-lg {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 6vw, 5rem);
+  font-weight: 600;
+  line-height: 0.94;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+/* Final CTA — ~30% lighter than display-lg, calmer hierarchy */
+.text-display-cta {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 4.2vw, 3.35rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  color: rgba(244, 244, 245, 0.88);
+}
+
+.text-display-md {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+.text-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.text-muted-bright {
+  color: #c4c4d0;
+}
+
+.text-body-lg {
+  font-family: var(--font-sans);
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  line-height: 1.65;
+  color: #c4c4d0;
+}
+
+.text-body-readable {
+  font-family: var(--font-sans);
+  font-size: clamp(1.0625rem, 1.6vw, 1.1875rem);
+  line-height: 1.75;
+  color: #d4d4dc;
+  letter-spacing: 0.01em;
+}
+
+.text-label {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
